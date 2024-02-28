@@ -1,0 +1,7 @@
+#!/bin/bash
+users:
+  - default
+  - name: vmuser
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    ssh_authorized_keys:
+    - <content of YOUR public key> 
